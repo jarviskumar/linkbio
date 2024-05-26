@@ -113,9 +113,11 @@
    new TypeIt("#hTxt", {
     speed: 80,
     waitUntilVisible: true,
-  })
-    .type("", { delay: 500 })
-    .move(null, { to: "END" }, {delay: 400}).go();
+  }),
+     afterStep: function (instance) {
+    instance.getElement().style.color = getRandomColor();
+  },
+    .type("", { delay: 500 }).go();
   
  </script>
   </body>

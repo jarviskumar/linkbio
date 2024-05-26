@@ -114,10 +114,12 @@
     speed: 80,
     waitUntilVisible: true,
   }),
-     afterStep: function (instance) {
+    .type("", 
+          afterStep: function (instance) {
     instance.getElement().style.color = getRandomColor();
-  },
-    .type("", { delay: 500 }).go();
+  }, 
+   { delay: 500 }).go();
+    
   
  </script>
   </body>

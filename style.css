@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.profile{
+  height: 120px;
+  width: 120px;
+  border:2px solid #98bf92;
+  margin-top: 20px;
+  background-color: #98bf92;
+  background-image: url(profile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.name{
+  font-size: 3rem;
+}
+
+.details{
+  font-size: 0.8rem;
+}
+.list-group-items{
+  width: 90vw;
+  background-color:#98bf92;
+  padding:2vh 0;
+ }
+ .icon{
+   color: #5b9652;
+   font-size: 2rem;
+ }
+ .icon:hover{
+   color: #3f7338;
+ }
+ 
+ .cursive-font{
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.courier-font{
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}

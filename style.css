@@ -73,7 +73,7 @@ body{
   position: absolute;
   width: 50px;
   height: 20px;
-  background-color:#559ffd;
+  background-color:white;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -90,7 +90,7 @@ body{
 }
 
 .input:checked + .label {
-  background-color: #d8efd3;
+  background-color: #559ffd;
 }
 
 .input:checked + .label .circle {
